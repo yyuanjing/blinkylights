@@ -22,6 +22,9 @@ body {
 h1 {
   font-family: verdana, arial, sans-serif;
 }
+h2{
+  color: red;
+}
 
 button {
   padding: 15px;
@@ -46,6 +49,9 @@ button {
 #button4 {
   background: lightyellow;
 }
+#button5 {
+  background: lightgrey;
+}
 .hidden{
   display: none;
 }
@@ -61,6 +67,9 @@ button {
 }
 #button4:active, #button4.lit {
   background: yellow;
+}
+#button5:active, #button5.lit {
+  background: grey;
 }
 
 /* images and videos max out at full width */
